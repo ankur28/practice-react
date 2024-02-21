@@ -1,0 +1,65 @@
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.content{
+    width: 100%;
+display: flex;
+justify-content: space-around;
+}
+
+.stepper_div{
+    height: 20px;
+    width: 35px;
+    background-color: gray;
+    border-radius: 20px;
+    padding: 5px;
+}
+.step_wrapper{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.step_name{
+    color: rgb(186, 35, 35);
+    margin-top: 5px;
+}
+
+.line{
+    width: 25rem;
+    height: 0.3em;
+    border-radius: 10px;
+    background-color: gray;
+    margin-left:  20px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    margin-top: 10px;
+    transition: 0.2 ease;
+}
+
+.stepperName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comp{
+    height: 50vh;
+    
+}
+.active{
+    background-color: rgb(31, 123, 214);
+}
+
+.complete{
+    background-color: rgb(15, 212, 64);
+}
+
+p{
+    color: black;
+}

@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.wrapper button{
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 10px 20px;
+    background:rgb(137, 104, 62);
+}
+
+.accordian{
+    width: 500px;
+}
+
+.item {
+    background-color:rgb(137, 104, 62);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.title{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content{
+    color: white;
+    height: auto;
+}
